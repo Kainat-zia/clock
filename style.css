@@ -1,0 +1,37 @@
+*{
+  background-color: darkslategrey;
+}
+
+.head{
+    margin-left: 40%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 240%;
+
+}
+.clock{
+  border: 1px solid black;
+  width:35%;
+  padding: 10px;
+  margin-left: 30%;
+  background-color: aliceblue;
+  border-radius: 90px;
+}
+#time{
+   width: 70%;
+   color: antiquewhite;
+   margin-left: 53px;
+   padding: 20px;
+   border-radius: 99px;
+   text-align: center;
+   font-size: 150%;
+}
+@media screen and (max-width: 800px) {
+.head{
+  margin-left: 37%;
+  font-size: 30px;
+}
+  #time{
+   margin-left: 9%;
+  }
+}
